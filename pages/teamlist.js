@@ -11,7 +11,7 @@ class Home extends Component {
     return (
       <React.Fragment>
         <div class="jumbotron text-center">
-          <h1>Home</h1>
+          <h1>Team List</h1>
           <p>Resize this responsive page to see the effect!</p>
         </div>
 

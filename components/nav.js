@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 
 const links = [
+  { href: 'teamlist', label: 'TeamList' },
+  { href: 'payments', label: 'Payments' },
   { href: 'https://zeit.co/now', label: 'ZEIT' },
   { href: 'https://github.com/zeit/next.js', label: 'GitHub' },
 ].map(link => ({
@@ -35,7 +37,7 @@ const Nav = () => (
       }
       ul {
         display: flex;
-        justify-content: space-between;
+       
       }
       nav > ul {
         padding: 4px 16px;
