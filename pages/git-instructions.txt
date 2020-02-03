@@ -1,2 +1,4 @@
-git remote add origin https://github.com/ad5jo/feb2next.git
+git remote add origin https://github.com/ad5jo/lindasnails-georgetown.git
 git push -u origin master
+
+git remote rm origin
