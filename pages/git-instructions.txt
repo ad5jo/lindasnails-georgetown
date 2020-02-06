@@ -1,4 +1,10 @@
+
+git remote rm origin
+
+…or push an existing repository from the command line
+
 git remote add origin https://github.com/ad5jo/lindasnails-georgetown.git
 git push -u origin master
 
-git remote rm origin
+weblink to the instructions to deploy next to netlify:
+https://dev.to/kriszkecskes/deploy-nextjs-project-to-netlify-4bd5
