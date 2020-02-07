@@ -9,25 +9,27 @@ class Home extends Component {
   }
   render() {
     return (
-      <React.Fragment>
-        <div class="jumbotron text-center">
-          <h1>Home</h1>
-          <p>Resize this responsive page to see the effect!</p>
+      <React.Fragment className="border-0 ">
+        <div className="jumbotron-pink text-center">
+          <h1>Linda's Nails</h1>
+          <p> 600 N Austin Ave, Georgetown</p>
+          <p>Call (512) 868-1136</p>
+          <a href="https://www.facebook.com/lindasnailstx/">Visit us on Facebook!</a>
         </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <h3>Column 1</h3>
-              <p>Lorem ipsum dolor..</p>
+        <div className="container page-lt-pink bg-image">
+          <div className="row">
+            <div className="col-sm-4">
+              <h3> </h3>
+              <p> </p>
             </div>
-            <div class="col-sm-4">
-              <h3>Column 2</h3>
-              <p>Lorem ipsum dolor..</p>
+            <div className="col-sm-4">
+              <h3> </h3>
+              <p> </p>
             </div>
-            <div class="col-sm-4">
-              <h3>Column 3</h3>
-              <p>Lorem ipsum dolor..</p>
+            <div className="col-sm-4">
+              <h3> </h3>
+              <p> </p>
             </div>
           </div>
         </div>
